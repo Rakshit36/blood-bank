@@ -12,7 +12,7 @@ import Auth from "./Components/Auth/Auth";
 import User from "./Components/User/User";
 import Bank from "./Components/Bank/Bank";
 import "./App.css";
-console.log("Live API URL is:", import.meta.env.VITE_API_URL);
+
 export default function App() {
 	const { loggedIn, user } = useContext(AuthContext);
 	return (
